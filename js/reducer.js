@@ -19,8 +19,7 @@ dispatch({type: 'INCREASE_COUNT'})
   // => {count: 1}
 dispatch({type: 'INCREASE_COUNT'})
   // => {count: 2}
-dispatch({type: 'INCREASE_COUNT'})
-  // => {count: 3}
+
 
 
   function render(){
