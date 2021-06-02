@@ -21,3 +21,11 @@ dispatch({type: 'INCREASE_COUNT'})
   // => {count: 2}
 dispatch({type: 'INCREASE_COUNT'})
   // => {count: 3}
+
+
+  function render(){
+    document.body.textContent = state.count
+  }
+
+  // call the render function
+  render()
